@@ -80,11 +80,16 @@ nav a{
     display: inline-block;
     border-left: 1px solid #efefef;
     padding-left: 15px;
-    line-height: 10px;
+    line-height: 20px;
 }
 
 nav a:first-child {
     border-left: 0 none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #1F5D5A;
 }
 
 /* main */
@@ -122,6 +127,10 @@ nav a:first-child {
     float: right;
     border: 1px solid #ddd;
     margin-bottom: 20px;
+}
+
+.sidebar a:hover img {
+    border: 3px solid #1F5D5A;
 }
 
 h3, .sidebar, h2 { 
