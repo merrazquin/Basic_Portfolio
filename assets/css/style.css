@@ -25,7 +25,7 @@ p:last-child{
 }
 
 h1, h2, h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: 700;
     color: #4aaaa5;
 }
@@ -59,7 +59,7 @@ h2, h3 {
     height: 90px;
     background: #4aaaa5;
     float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     line-height: 90px;
     color: #fff;
