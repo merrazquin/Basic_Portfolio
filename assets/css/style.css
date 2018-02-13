@@ -38,8 +38,8 @@ h1, h2, h3 {
 h1 {
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #470a0a;
     padding-bottom: 20px;
+    border-bottom: 3px solid #470a0a;
 }
 
 h2, h3 { 
@@ -49,28 +49,28 @@ h2, h3 {
 /* header */
 
 #masthead {
-    background: #fff;
+    width: 100%;
     margin: 0 0 30px;
     z-index: 99;
-    color: #fff;
     overflow: auto;
-    border-bottom: 2px solid #470a0a;
     position: fixed;
-    width: 100%;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #470a0a;
 }
 
 #logo {
     width: 350px;
     height: 90px;
-    background: #bc4f5e;
     float: left;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     line-height: 90px;
-    color: #fff;
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
+    background: #bc4f5e;
+    color: #fff;
 }
 
 nav {
@@ -79,13 +79,13 @@ nav {
 }
 
 nav a{
-    color: #999;
-    text-decoration: none;
-    margin-left: 15px;
     display: inline-block;
-    border-left: 1px solid #efefef;
+    margin-left: 15px;
     padding-left: 15px;
+    text-decoration: none;
     line-height: 20px;
+    color: #999;
+    border-left: 1px solid #efefef;
 }
 
 nav a:first-child {
@@ -105,13 +105,13 @@ nav a:hover {
 }
 
 .main-section {
-    background: #fff;
-    padding: 30px;
-    margin: 0 40px 40px 0;
     width: 100%;
     max-width: 650px;
+    padding: 30px;
+    margin: 0 40px 40px 0;
     float: left;
     border: 1px solid #ddd;
+    background: #fff;
 }
 
 .auth-image { 
@@ -125,13 +125,13 @@ nav a:hover {
 /* sidebar */
 
 .sidebar { 
-    background: #fff;
-    padding: 30px;
     width: 100%;
     max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
     float: left;
     border: 1px solid #ddd;
-    margin-bottom: 20px;
+    background: #fff;
 }
 
 .sidebar a:hover img {
@@ -139,10 +139,10 @@ nav a:hover {
 }
 
 h3, .sidebar, h2 { 
-    border-bottom: 2px solid #eee;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
+    border-bottom: 2px solid #eee;
 }
 
 .social {
@@ -159,14 +159,14 @@ h3, .sidebar, h2 {
 /* footer */
 
 footer {
-    background: #cb5382;
-    color: #470a0a;
-    padding: 30px 0;
     clear: both;
-    border-top: 8px solid #bc4f5e;
     font-size: 12px;
     text-align: center;
+    padding: 30px 0;
     margin-top: -102px;
+    border-top: 8px solid #bc4f5e;
+    background: #cb5382;
+    color: #470a0a;
 }
 
 /* portfolio */
@@ -188,18 +188,19 @@ footer {
     border: 0 none;
     opacity: .8;
 }
+
 .work h3 { 
-    border-bottom: 0;
-    background: #bc4f5e;
-    color: #fff;
-    text-align: center;
+    width: 100%;
     position: absolute;
     bottom: 20px;
     padding: 15px;
-    width: 100%;
     line-height: 30px;
+    border-bottom: 0;
     margin-bottom: 0;
+    text-align: center;
     font-weight: 300;
+    background: #bc4f5e;
+    color: #fff;
 }
 
 .work:hover h3 {
@@ -210,17 +211,14 @@ footer {
     opacity: 1;
 }
 
-
 /* contact */
 
 #contact-form ul {
     margin-bottom: 20px;
-
 }
 
 #contact-form li {
     margin-bottom: 10px;
-
 }
 
 label, 
@@ -235,9 +233,9 @@ input[type=text],
 input[type=email],
 textarea{
     height: 35px;
-    border: 1px solid #ddd;
     padding: 0 10px;
     font-size: 14px;
+    border: 1px solid #ddd;
 }
 
 textarea{
@@ -245,10 +243,10 @@ textarea{
 }
 
 input[type=submit] {
-    background: #bc4f5e;
     border: 0 none;
-    color: #fff;
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
+    background: #bc4f5e;
+    color: #fff;
 }
